@@ -1,0 +1,33 @@
+.navbar{
+    background-color:#3b5999 ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.mainName{
+    color: aliceblue;
+    font: status-bar;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+.nav{
+    margin-left: 4%;
+}
+
+.nav-item{
+    color: aliceblue;
+    padding: 16px;
+    font: status-bar;
+    font-size:larger;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: rgb(73, 206, 247);
+}
+
+.active{
+    color: rgb(73, 206, 247);   
+}

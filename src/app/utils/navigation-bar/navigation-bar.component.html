@@ -1,0 +1,9 @@
+<nav class="navbar">
+    <span class="mainName">
+        AlpacaImg |
+    </span>
+    <div class="nav">
+        <a class="nav-item" [ngClass]="{'active':enabled1}" routerLink="login" (click)="changeState()">Login</a>
+        <a class="nav-item" [ngClass]="{'active':enabled2}" routerLink="generator" (click)="changeState()">Generator</a>
+    </div>
+</nav>
